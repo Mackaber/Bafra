@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Formal";
+  src: url('../fonts/ufonts.com_formal436-bt.ttf') format("truetype");
+}
+
+.logo {
+	position: absolute;
+    top: 20px;
+    left: 85px;
+    width: 70px;
+}
+
+body {
+	background-color: #EAEAEA;
+	/*@import url(https://fonts.googleapis.com/css?family=Lato);*/
+	/*@import url("./Bauhausb.ttf")*/
+	/*font-family: 'Formal', sanserif;*/
+}
+
+.blur {
+	position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url('../static_images/home.jpg');
+    background-size: 100%;
+    /* -webkit-filter: blur(1px); */
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+#navigator {
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+	/*background-color: #3DA1CC;*/
+	font-family: 'Formal', sanserif;
+}
+
+#center-circle {
+	stroke-width: 10px;
+	stroke: #3DA1CC;
+	transition: cubic-bezier(0, -0.68, 0.84, 1.56) 0.30s;
+}
+
+#content-circle {
+	opacity: 0;
+	margin: 0 auto;
+	width: 65px;
+	height: 65px;
+	font-size: calc(0vw + 2vh + 1vmin);
+    border-radius: 50%;
+    background-size: 430px;
+	/*transition: all .2s ease-in-out;*/
+	-webkit-transition: width 0.30s, height 0.30s, margin 0.30s;
+    -moz-transition: width 0.30s, height 0.30s, margin 0.30s;
+    -ms-transition: width 0.30s, height 0.30s, margin 0.30s;
+    transition: width 0.30s, height 0.30s, margin 0.30s;
+	/*border: 2px solid;*/
+	top: 240px;
+	/*transform: scale(1.1);		*/
+}
+
+#title {
+	position: relative;
+	top: 50px;
+	left: 90px;
+}
+
+.item use {
+	transition: cubic-bezier(0, -0.68, 0.84, 1.56) 0.30s;
+}
+
+#menu {
+	display:block;
+	margin:0 auto;
+}
+
+a {
+	cursor:pointer;
+	outline:none;
+}
+
+.item .sector {
+	transition:all .0.30s linear;
+	fill:#fff;
+	stroke:#EAEAEA;
+}
+
+.item:hover .sector,.item:focus .sector{
+	fill:#eee;
+	border: 1px solid;
+}
+
+.menu-trigger{
+	fill:#3DA1CC;
+	pointer-events:auto;
+}
+
+.menu-trigger:hover,.menu-trigger:focus{
+	cursor:pointer;
+}
+
+symbol {
+	overflow:visible;
+}
+
+.info {
+	color: rgb(255, 255, 255);		
+	width: 310px;
+	height: 310px;
+	pointer-events: none;
+	/*background-image: url('./californa.jpg');*/
+	color: black;
+	box-shadow: inset rgba(0,0,0,0.2) 16px 0px 20px;
+} 
+
+.hole {
+    padding-top: 155px;
+    margin: 0;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.shadow {
+	background-color: rgba(234, 234, 234, 0.25);
+    text-shadow: 0 1px 3px rgb(0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 1px 1px 210px 210px;
+	height: 155px;
+	color: #E6E6E6;
+}
+
+.info .description {
+	font-size:12px;
+	padding: 0px 50px;
+}

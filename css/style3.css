@@ -1,0 +1,47 @@
+.logo {
+    width: 200px;
+    -webkit-filter: drop-shadow(3px 3px 2px #252525);
+    -moz-filter: drop-shadow(3px 3px 2px #252525);
+    -o-filter: drop-shadow(3px 3px 2px #252525);
+    -ms-filter: drop-shadow(3px 3px 2px #252525);
+    filter: drop-shadow(3px 3px 2px #252525);
+}
+
+.slogan {
+    color: #000;
+
+    -webkit-filter: drop-shadow(3px 3px 2px #252525);
+    -moz-filter: drop-shadow(3px 3px 2px #252525);
+    -o-filter: drop-shadow(3px 3px 2px #252525);
+    -ms-filter: drop-shadow(3px 3px 2px #252525);
+    filter: drop-shadow(3px 3px 2px #252525);
+}
+
+.entry-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.entry-footer {
+    display: none;
+    position: fixed;
+    top: 37px;
+    left: 20px;
+    padding: 10px;
+    max-height: 52px;
+    background-color: rgba(0, 0, 0, 0.21);
+
+}
+
+.post {
+    display: none;
+}
+
+#wrapper, #navigator {
+    height: 100%;
+}
+
+.ui-loader {
+    display: none;
+}
