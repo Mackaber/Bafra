@@ -574,41 +574,15 @@ a:active {
 	width: 200px;
 }
 
-.main-navigation ul ul li {
-
-}
-
-.main-navigation li:hover > a,
-.main-navigation li.focus > a {
-}
-
-.main-navigation ul ul :hover > a,
-.main-navigation ul ul .focus > a {
-}
-
-.main-navigation ul ul a:hover,
-.main-navigation ul ul a.focus {
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
 	left: auto;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
 	left: 100%;
 }
 
-.main-navigation .current_page_item > a,
-.main-navigation .current-menu-item > a,
-.main-navigation .current_page_ancestor > a,
-.main-navigation .current-menu-ancestor > a {
-}
-
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+.menu-toggle, .main-navigation.toggled ul {
 	display: block;
 }
 
@@ -621,32 +595,22 @@ a:active {
 	}
 }
 
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
 }
 
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
 	float: left;
 	width: 50%;
 }
 
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
 	float: right;
 	text-align: right;
 	width: 50%;
 }
 
-/*--------------------------------------------------------------
-# Accessibility
---------------------------------------------------------------*/
-/* Text meant only for screen readers. */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
@@ -672,17 +636,13 @@ a:active {
 	text-decoration: none;
 	top: 5px;
 	width: auto;
-	z-index: 100000; /* Above WP toolbar. */
+	z-index: 100000;
 }
 
-/* Do not show the outline on the skip link target. */
 #content[tabindex="-1"]:focus {
 	outline: 0;
 }
 
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
 .alignleft {
 	display: inline;
 	float: left;
@@ -702,9 +662,6 @@ a:active {
 	margin-right: auto;
 }
 
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
 .clear:before,
 .clear:after,
 .entry-content:before,
